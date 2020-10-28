@@ -33,8 +33,8 @@ Startpoint_input()
 #Checking for walls
 def Startpoint_Coords():
     #determining of value of coord
-    List1 = maze[Start[0]]
-    List2 = List1[Start[1]]
+    List1 = maze[Start[1]]
+    List2 = List1[Start[0]]
     if List2 == 1:
         print("Coordinate is a wall, please re-enter your coordinate")
         Start.clear()
